@@ -312,7 +312,7 @@ void GazeboRosCameraUtils::LoadThread()
   else
   {
     ROS_WARN("dynamic reconfigure is not enabled for this image topic [%s]"
-             " becuase <cameraName> is not specified",
+             " because <cameraName> is not specified",
              this->image_topic_name_.c_str());
   }
 
